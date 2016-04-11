@@ -1,0 +1,167 @@
+/*font-family: 'Shadows Into Light', cursive;
+ font-family: 'Indie Flower', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background-color: white;
+	margin-top: 100px;
+	border-color: red;
+	border-style: solid;
+	border-radius: 20px;
+	
+}
+
+
+
+/*propiedades banner*/
+
+#banner{
+
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+
+}
+
+
+#titulo_aside
+{
+
+	text-align: center;
+	background: #3a7999;
+ 	color: #f2f2f2;
+ 	height: auto;
+ 	width: auto;
+
+}
+
+/*ETIQUETAS*/
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+header{
+	width: 1000px;
+	height: 120 px;
+	background: rgba(255, 255, 255, 10,70);
+}
+
+section{
+
+
+	background-color: gray; 
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p{
+
+text-align: justify;
+
+}
+
+footer{
+
+	width: 1000px;
+	height: 40px;
+	border: none;
+ 	background: #3a7999;
+ 	color: #f2f2f2;
+ 	border-bottom-right-radius: 20px; 
+ 	border-bottom-left-radius: 20px;
+ 	text-align: center;
+
+
+}
+
+
+aside{
+
+	width: 280px;
+	background-color: white;
+	height: auto;
+	border-radius: 10px;
+	border-color: red;
+	border-style: solid;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+/*Barra Menu*/
+
+nav{
+
+background-image: url(../img/bar_menu.jpg);
+
+
+}
+
+
+/*Botones Barra Menu*/
+
+button {
+ border: none;
+ background: #3a7999;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+ margin: 30px;
+}
+
+
+
+
+button:before {
+ content:'';
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 0px;
+ height: 42px;
+ background: rgba(255,255,255,0.3);
+ border-radius: 5px;
+ transition: all 2s ease;
+}
+
+
+button:hover:before {
+ width: 100%;
+}
+
+
+
+/*Centrar Imagenes*/
+
+
+IMG.imgcenter{
+
+	  display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+      border-radius: 15px;
+      }
+
+
+/*estilos titulos aside*/
+
+
+
+
+
+
+
+
