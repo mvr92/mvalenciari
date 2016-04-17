@@ -12,7 +12,7 @@
 	<meta content="mauricio perdomo" name="author"/>
     <meta content="Pagina de verntas online de la empresa ventas ya" name="description" />
     <meta content="VENTAS, ECOMMERCE, ONLINE" name="keywords" />
-	<title>FPC</title>
+	<title>Contactenos</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Indie+Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -66,21 +66,38 @@
 
 	<section>
 
-<center><img src="img/bienvenidos.png"></center>
+<center><img src="img/adopcion.png"></center>
 
-			<article>
+			<img src="img/adoptarperros.jpg" alt="adopcion perros" class="imgcenter" width="250" height="200">
+
+
+				<img src="img/bruno.png" width="200" height="200" >
+				<img src="img/maya.png" width="200" height="200">
+				<img src="img/cloey.png" width="200" height="200">
+
+				<p><b>Nombre de Contacto:</b> Milton Valencia<br></p>
+				<p><b>Ciudad</b> Puerto Asis Putumayo<br></p>
+				<p><b>Telefono</b> 3114434111<br></p>
+
 			
-			<figure>
-				
 
-				<img src="img/imagen1.jpg" alt="perro y gato" class="imgcenter" width="400" height="320" >
 
-			</figure>
-			<p>Somos una fundación legalmente constituida que busca crear conciencia en la sociedad para lograr una convivencia pacífica con los animales, creando compromiso por el respeto por sus vidas y la protección de su hábitat. unidos por la voz de aquellos que no la tienen Somos una fundación sin animo de lucro que ayudamos a perros y gatos callejeros en medellín Colombia mientras tu compras un cachorro hay muchos que mueren en los albergues y en las calles. <br>
-				</p>
-				<br>
 
-		</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	</section>
@@ -103,6 +120,39 @@
 <script src="js/modernizr.js"></script>   
 <script src="js/prefixfree.min.js"></script>
 <script src="js/jquery-2.1.1.js"></script>   
+
+
+
+
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js?ver=1.4.4'></script>
+<script type="text/javascript" src="js/jMyCarousel.min.js"></script>
+<script type="text/javascript">
+ $(document).ready(function() {
+    $(".jMyCarousel").jMyCarousel({ // Script de los Thumbnails
+    visible: '100%',
+    eltByElt: true
+    });
+$(".jMyCarousel img").fadeTo(100, 0.6);
+$(".jMyCarousel a img").hover(
+    function(){ //mouse over
+       $(this).fadeTo(400, 1);
+    },
+    function(){ //mouse out
+      $(this).fadeTo(400, 0.6);
+    });
+});
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){ // Script de la Galeria
+    $('#contenido_galeria div').css('position', 'absolute').not(':first').hide();
+    $('#contenido_galeria div:first').addClass('aqui');
+    $('.jMyCarousel a').click(function(){
+        $('#contenido_galeria div.aqui').fadeOut(400);
+        $('#contenido_galeria div').removeClass('aqui').filter(this.hash).fadeIn(400).addClass('aqui');
+        return false;
+    });
+ });
+</script> 
 
 
 

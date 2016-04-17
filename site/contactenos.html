@@ -12,7 +12,7 @@
 	<meta content="mauricio perdomo" name="author"/>
     <meta content="Pagina de verntas online de la empresa ventas ya" name="description" />
     <meta content="VENTAS, ECOMMERCE, ONLINE" name="keywords" />
-	<title>FPC</title>
+	<title>Contactenos</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Indie+Flower' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -31,7 +31,7 @@
 
 	<nav>
 
-		<a href="index.html"><button>Inicio</button></a>
+			<a href="index.html"><button>Inicio</button></a>
 		<a href="quienessomos.html"><button>Quienes Somos</button></a>
 		<a href="galeria.html"><button>Galería</button></a>
 		<a href="adoptame.html"><button>Adopción</button></a>
@@ -66,21 +66,24 @@
 
 	<section>
 
-<center><img src="img/bienvenidos.png"></center>
+<center><img src="img/contactanos.png"></center>
 
-			<article>
-			
-			<figure>
-				
+		<center><form action="#" method="POST" enctype="multipart/form-data">
 
-				<img src="img/imagen1.jpg" alt="perro y gato" class="imgcenter" width="400" height="320" >
-
-			</figure>
-			<p>Somos una fundación legalmente constituida que busca crear conciencia en la sociedad para lograr una convivencia pacífica con los animales, creando compromiso por el respeto por sus vidas y la protección de su hábitat. unidos por la voz de aquellos que no la tienen Somos una fundación sin animo de lucro que ayudamos a perros y gatos callejeros en medellín Colombia mientras tu compras un cachorro hay muchos que mueren en los albergues y en las calles. <br>
-				</p>
-				<br>
-
-		</article>
+		<div>
+			<label for="name">Tu nombre:</label><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+		<label for="email">Tu email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+		</div>
+		<div class="row">
+		<label for="message">Tu mensaje:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+		</div>
+		<input id="submit_button" type="submit" value="Enviar email" />
+		</form>		</center>
 
 
 	</section>
